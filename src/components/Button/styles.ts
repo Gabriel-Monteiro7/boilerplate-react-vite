@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { variants } from './'
+import { Variants } from './'
 
 const text = css`
   ${({ theme }) => css`
@@ -40,7 +40,7 @@ const variants = {
   outlined
 }
 
-export const Container = styled.button<{ variant: variants }>`
+export const Container = styled.button<{ variant: Variants }>`
   border: 0;
   padding: 0.8rem 3rem;
   border-radius: 5px;
