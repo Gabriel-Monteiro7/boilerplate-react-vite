@@ -2,11 +2,11 @@ import React from 'react'
 
 import { Container } from './styles'
 
-export type variants = 'text' | 'contained' | 'outlined'
+export type Variants = 'text' | 'contained' | 'outlined'
 
 type ButtonProps = {
   text?: string
-  variant?: variants
+  variant?: Variants
 }
 
 const Button: React.FC<ButtonProps> = ({
