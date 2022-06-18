@@ -29,14 +29,18 @@
       ]
     },
     "typeRoots": [
-      "src/@types"
-    ]
+      "src/@types",
+      "node_modules/@types"
+    ],
   },
   "include": [
     "vite.config.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/**/*/*.json"
+    "src/**/*/*.json",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "jest.config.js"
   ],
   "exclude": [
     "node_modules",

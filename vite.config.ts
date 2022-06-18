@@ -4,9 +4,17 @@ import react from '@vitejs/plugin-react'
 import path from 'path'
 
 // https://vitejs.dev/config/
-export default defineConfig({
+//{mode}
+export default defineConfig(() => ({
   resolve: {
     alias: [{ find: '~', replacement: path.resolve(__dirname, '/src') }]
   },
-  plugins: [react()]
-})
+  plugins: [
+    react({
+      jsxRuntime: 'classic'
+    })
+  ],
+  esbuild: {
+    jsxInject: `import * as React from 'react'`
+  }
+}))
