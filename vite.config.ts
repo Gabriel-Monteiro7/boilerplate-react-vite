@@ -13,8 +13,5 @@ export default defineConfig(() => ({
     react({
       jsxRuntime: 'classic'
     })
-  ],
-  esbuild: {
-    jsxInject: `import * as React from 'react'`
-  }
+  ]
 }))
