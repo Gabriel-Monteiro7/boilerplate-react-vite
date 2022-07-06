@@ -68,7 +68,7 @@ export const Theme: FC<{ children: JSX.Element }> = ({ children }) => {
   const { dispatch } = useStore()
 
   useEffect(() => {
-    const theme = LocalStorageService.getItem<ThemeStore>('theme') ?? 'light'
+    const theme = LocalStorageService.getItem<ThemeStore>('@theme') ?? 'light'
 
     dispatch({
       type: Types.changeTheme,
