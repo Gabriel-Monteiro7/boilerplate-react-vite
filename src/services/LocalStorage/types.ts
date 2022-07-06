@@ -1,1 +1,1 @@
-export type LocalStorageItem = 'theme'
+export type LocalStorageItem = '@theme'
