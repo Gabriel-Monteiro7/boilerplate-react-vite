@@ -12,7 +12,7 @@ export const useTheme = () => {
       theme: newtheme
     })
 
-    LocalStorageService.setItem('theme', newtheme)
+    LocalStorageService.setItem('@theme', newtheme)
   }
 
   return { changeTheme }

@@ -1,5 +1,23 @@
 {
+  "printWidth": 80,
   "trailingComma": "none",
+  "singleQuote": true,
   "semi": false,
-  "singleQuote": true
+  "importOrder": [
+    "^react(.*)",
+    "^~/services(.*)$",
+    "^~/utils(.*)$",
+    "^~/routes(.*)$",
+    "^~/context(.*)$",
+    "^~/hooks(.*)$",
+    "^~/screens(.*)$",
+    "^~/components(.*)$",
+    "^~/assets(.*)$",
+    "^~/styles(.*)$",
+    "^~/theme(.*)$",
+    "^[./]"
+  ],
+  "importOrderCaseInsensitive": true,
+  "importOrderSeparation": true,
+  "importOrderGroupNamespaceSpecifiers": true
 }

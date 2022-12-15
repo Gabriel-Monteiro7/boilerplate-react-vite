@@ -53,7 +53,9 @@ const dark = {
 
 const themes = { light, dark }
 
-const ThemeDefault: FC<{ children: JSX.Element }> = ({ children }) => {
+const ThemeDefault: FC<{ children: JSX.Element | JSX.Element[] }> = ({
+  children
+}) => {
   const { state } = useStore()
   const theme = state?.theme
 
@@ -64,7 +66,9 @@ const ThemeDefault: FC<{ children: JSX.Element }> = ({ children }) => {
   )
 }
 
-export const Theme: FC<{ children: JSX.Element }> = ({ children }) => {
+export const Theme: FC<{ children: JSX.Element | JSX.Element[] }> = ({
+  children
+}) => {
   const { dispatch } = useStore()
 
   useEffect(() => {
