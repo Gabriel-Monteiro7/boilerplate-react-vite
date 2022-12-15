@@ -4,23 +4,6 @@ import { ThemeStore, Types, useStore } from '~/context'
 import { FC, useEffect } from 'react'
 import { LocalStorageService } from '~/services/LocalStorage'
 
-declare module 'styled-components' {
-  export interface DefaultTheme {
-    palette: {
-      type: string
-      primary: string
-      secondary: string
-      background: {
-        paper: string
-        default: string
-      }
-      text: { primary: string; secondary: string }
-      divider: string
-      dividerDark: string
-    }
-  }
-}
-
 const light = {
   palette: {
     type: 'light',
@@ -51,7 +34,7 @@ const dark = {
   }
 }
 
-const themes = { light, dark }
+export const themes = { light, dark }
 
 const ThemeDefault: FC<{ children: JSX.Element | JSX.Element[] }> = ({
   children
