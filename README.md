@@ -22,10 +22,10 @@
 
 ## 📌 Tecnologias e Ferramentas Usadas
 
-- :atom_symbol:  **React Ts** — Uma biblioteca Javascript para construção de interfaces.
+- :atom_symbol:  **React** — Uma biblioteca Javascript para construção de interfaces.
 - :nail_care:  **Styled Components** — Tecnologia para componentizar estilização CSS no React através do Javascript.
 - 📕  **Storybook** — É uma ferramenta de código aberto para criar componentes de interface do usuário e páginas isoladamente.
-- 🎭  **Jest** — É um poderoso Framework de Testes em JavaScript com um foco na simplicidade.
+- ⚡  **Vitest** —  É uma estrutura de teste de unidade extremamente rápida desenvolvida pelo Vite
 
 ## 🚀 Execução
 ```
