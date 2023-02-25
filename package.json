@@ -36,18 +36,20 @@
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "@vitejs/plugin-react": "^3.0.0",
+    "@vitest/coverage-c8": "^0.29.1",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-storybook": "^0.6.8",
+    "jsdom": "^21.1.0",
     "lint-staged": "^13.1.0",
     "msw": "^0.49.2",
     "prettier": "^2.6.2",
     "storybook-react-context": "^0.6.0",
     "typescript": "^4.6.3",
     "vite": "^4.0.1",
-    "vitest": "^0.25.8"
+    "vitest": "^0.29.1"
   }
 }
